@@ -134,7 +134,7 @@ def main():
             2. Select your target date
             3. Click "Analyze Weather Data"
             
-            ### ⚫ You'll receive:
+            ### ➜ You'll receive:
             - Comprehensive weather statistics
             - Interactive visualizations
             - Historical data trends
