@@ -26,7 +26,7 @@ if 'metrics' not in st.session_state:
     st.session_state.metrics = None
 
 def main():
-    st.title("🌤 Weather Prediction System")
+    st.title("☀ Weather Prediction System")
     st.markdown("### 5-Year Historical Weather Analysis for Event Planning")
     
     # Sidebar for input controls
