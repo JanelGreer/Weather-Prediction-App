@@ -26,7 +26,7 @@ if 'metrics' not in st.session_state:
     st.session_state.metrics = None
 
 def main():
-    st.title("🌤️ Weather Prediction System")
+    st.title("🌥 Weather Prediction System")
     st.markdown("### 5-Year Historical Weather Analysis for Event Planning")
     
     # Sidebar for input controls
@@ -107,7 +107,7 @@ def main():
         
         # Database query section
         st.markdown("---")
-        st.subheader("📚 Previous Analyses")
+        st.subheader("🔴 Previous Analyses")
         if st.button("View Stored Data", use_container_width=True):
             show_database_records()
 
@@ -123,18 +123,18 @@ def main():
             
             This application analyzes **5 years of historical weather data** to help you make informed decisions about outdoor events, weddings, or any weather-dependent activities.
             
-            ### 🎯 What it does:
+            ### ⚫ What it does:
             - Fetches historical weather data from OpenMeteo API
             - Analyzes temperature, wind speed, and precipitation patterns
             - Provides statistical insights (averages, minimums, maximums)
             - Stores results for future reference
             
-            ### 📊 Get started:
+            ### ⚫ Get started:
             1. Enter your location (search by city or use coordinates)
             2. Select your target date
             3. Click "Analyze Weather Data"
             
-            ### 📈 You'll receive:
+            ### ⚫ You'll receive:
             - Comprehensive weather statistics
             - Interactive visualizations
             - Historical data trends
@@ -224,7 +224,7 @@ def display_analysis_results():
     st.markdown("---")
     
     # Key Metrics Overview
-    st.subheader("🎯 Key Weather Insights")
+    st.subheader("🔴 Key Weather Insights")
     
     col1, col2, col3, col4 = st.columns(4)
     
