@@ -123,13 +123,13 @@ def main():
             
             This application analyzes **5 years of historical weather data** to help you make informed decisions about outdoor events, weddings, or any weather-dependent activities.
             
-            ### ⚫ What it does:
+            ### ➜ What it does:
             - Fetches historical weather data from OpenMeteo API
             - Analyzes temperature, wind speed, and precipitation patterns
             - Provides statistical insights (averages, minimums, maximums)
             - Stores results for future reference
             
-            ### ⚫ Get started:
+            ### ➜ Get started:
             1. Enter your location (search by city or use coordinates)
             2. Select your target date
             3. Click "Analyze Weather Data"
