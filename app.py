@@ -96,7 +96,7 @@ def main():
         st.markdown("---")
         
         # Analysis button
-        if st.button("🔬🌧 Analyze Weather Data", type="primary", use_container_width=True):
+        if st.button("Analyze Weather Data", type="primary", use_container_width=True):
             if latitude is not None and longitude is not None:
                 if validate_date(target_date.month, target_date.day, target_date.year):
                     run_weather_analysis(latitude, longitude, target_date)
